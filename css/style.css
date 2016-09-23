@@ -1,0 +1,54 @@
+/*
+body {
+  padding-top: 50px;
+}
+*/
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+
+/* Carousel base class */
+
+.carousel {
+    height: 500px;
+    margin-bottom: 60px;
+}
+
+
+/* Since positioning the image, we need to help out the caption */
+
+.carousel-caption {
+    z-index: 10;
+}
+
+
+/* Declare heights because of positioning of img element */
+
+.carousel .item {
+    height: 500px;
+    background-color: #777;
+}
+
+.carousel-inner > .item > img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    height: 500px;
+}
+
+header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#00deea+0,a7e4e8+50,adc18d+51,099923+100 */
+    background: #00deea;
+    /* Old browsers */
+    background: -moz-linear-gradient(top, #00deea 0%, #a7e4e8 50%, #adc18d 51%, #099923 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #00deea 0%, #a7e4e8 50%, #adc18d 51%, #099923 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #00deea 0%, #a7e4e8 50%, #adc18d 51%, #099923 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00deea', endColorstr='#099923', GradientType=0);
+    /* IE6-9 */
+}
