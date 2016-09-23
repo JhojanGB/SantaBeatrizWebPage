@@ -52,3 +52,9 @@ header {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00deea', endColorstr='#099923', GradientType=0);
     /* IE6-9 */
 }
+
+@media (max-width: 768px) {
+    form.navbar-form {
+        display: none;
+    }
+}
